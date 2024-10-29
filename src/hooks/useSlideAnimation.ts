@@ -35,7 +35,6 @@ export function translateYOutputRangeFor({
 }
 
 const useNativeDriver = Platform.select({
-  ios: true,
   default: false
 });
 
